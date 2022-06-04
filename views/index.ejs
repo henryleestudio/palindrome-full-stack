@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Palindrome-express</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1589047438.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <main>
@@ -17,17 +18,17 @@
         </form>
     
         <ul class="messages">
-            <% for(var i=0; i<dreams.length; i++) {%>
+            <% for(var i=0; i<words.length; i++) {%>
               <li class="message">
-                <span class="bold"><%= dreams[i].word %></span>
-                <span><%= dreams[i].outcome %></span>
+                <button class="star">&#9734;</button>
+                <span class="bold"><%= words[i].word %></span>
+                <span class="outCome"><%= words[i].outcome %></span>
+                <i class="fa-solid fa-trash"></i>
               </li>
             <% } %>
             </ul>
     </main>
 
-    
-      
     
     <script src="main.js"></script>
 </body>
