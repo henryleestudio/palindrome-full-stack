@@ -1,6 +1,6 @@
 # Palindrome full stack practice
 A palindrome word checker - Full stack application
-Converted a previously made Palindrome application into a full stack application
+<br>Converted a previously made Palindrome application into a full stack application
 
 HTML5 | CSS3 | JavaScript | Node.js | MongoDB
 
