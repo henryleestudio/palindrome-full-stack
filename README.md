@@ -6,7 +6,7 @@ HTML5 | CSS3 | JavaScript | Node.js | MongoDB
 
 ![localhost_7000_ (2)](https://user-images.githubusercontent.com/101936420/172071191-ea845328-3afb-42d2-aa85-9429a258da90.png)
 
-![localhost_7000_ (3)](https://user-images.githubusercontent.com/101936420/172071437-9d357c71-8628-40cd-a373-8189eda615bc.png)
+![localhost_7000_ (4)](https://user-images.githubusercontent.com/101936420/172071463-939140c0-dde1-434f-a42b-1cb06d5668f2.png)
 
 ## Lessons Learned: 
 I practiced my process of converting a frontend application into a full stack application. Once the palindrome worked using frontend main.js, I added the functionality to the backend server.js with express and node.js. To reverse the word I took the input as a string and used the methods of split, reverse, and join. The new word was then compared against the original word and the application would return if it is a palindrome or not. After I added update and delete capabilities for fun. 
